@@ -1,0 +1,166 @@
+body{
+  margin: 0;
+  background-color: black;
+}
+.solar_system{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sun{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: gold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 25px 2px yellow;
+}
+
+.orbit{
+  border-radius: 50%;
+  border: 1px solid gray;
+  position: absolute;
+}
+.planet{
+  position: absolute;
+  border-radius: 50%;
+}
+
+.orbit_mercury{
+  width: 100px;
+  height: 100px;
+  margin: 200px;
+  -webkit-animation: spin 2s infinite linear;
+}
+.mercury{
+  top: 12px;
+  left: 12px;
+  width: 5px;
+  height: 5px;
+  background-color: red;
+}
+
+.orbit_venus{
+  width: 150px;
+  height: 150px;
+  margin: 175px;
+  -webkit-animation: spin 3s infinite linear;
+}
+.venus{
+  top: 17px;
+  left: 17px;
+  width: 8px;
+  height: 8px;
+  background-color: orange;
+}//.venus
+
+.orbit_earth{
+  width: 200px;
+  height: 200px;
+  margin: 150px;
+  -webkit-animation: spin 4s infinite linear;  
+}
+.earth{
+  top: 23px;
+  left: 23px;
+  width: 10px;
+  height: 10px;
+  background-color: green;
+}
+.orbit_moon{
+  width: 25px;
+  height: 25px;
+  margin: 15px;
+  -webkit-animation: spin 1s infinite linear;  
+}
+.moon{
+  position: absolute;
+  top:1px;
+  left:1px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: gray;  
+}
+
+.orbit_mars{
+  width: 250px;
+  height: 250px;
+  margin: 125px;
+  -webkit-animation: spin 5s infinite linear;  
+}
+.mars{
+  top: 31px;
+  left: 31px;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+}
+
+.orbit_jupiter{
+  width: 350px;
+  height: 350px;
+  margin: 75px;
+  -webkit-animation: spin 6s infinite linear;  
+}
+.jupiter{
+  top: 40px;
+  left: 40px;
+  width: 25px;
+  height: 25px;
+  background-color: orangered;
+}
+
+
+.orbit_saturn{
+  width: 400px;
+  height: 400px;
+  margin: 50px;
+  -webkit-animation: spin 7s infinite linear;  
+}
+.saturn{
+  top: 48px;
+  left: 48px;
+  width: 20px;
+  height: 20px;
+  background-color: darkorange;
+}
+
+
+.orbit_uranus{
+  width: 450px;
+  height: 450px;
+  margin: 25px;
+  -webkit-animation: spin 8s infinite linear;  
+}
+.uranus{
+  top: 56px;
+  left: 56px;
+  width: 18px;
+  height: 18px;
+  background-color: dodgerblue;
+}
+
+.orbit_neptune{
+  width: 500px;
+  height: 500px;
+  -webkit-animation: spin 9s infinite linear;
+}
+.neptune{
+  top: 65px;
+  left: 65px;
+  width: 15px;
+  height: 15px;
+  background-color: royalblue;
+}
+
+@-webkit-keyframes spin {
+0% { -webkit-transform: rotate(0deg);}
+100% { -webkit-transform: rotate(360deg);}
+}
